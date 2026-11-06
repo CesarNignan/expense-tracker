@@ -244,7 +244,7 @@ AI tools were used to support parts of the code-writing and development process.
 
 ## Contributors
 
-- [Adedamola Olaoy](https://github.com/CesarNignan)
+- [Adedamola Olaoye](https://github.com/AdedamolaG)
 - [Nonso Emmanuel](https://github.com/chinonsoemma)
 - [Ibrahim Oyesola](https://github.com/oyesolaibrahim)
 - [Olatunde Peter](https://github.com/olatunde-peter)
