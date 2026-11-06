@@ -32,16 +32,7 @@ Authentication is handled by Amazon Cognito. The API uses a Cognito JWT authoriz
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    A[User / Browser] -->|HTTPS| B[CloudFront]
-    B --> C[Private S3 Bucket<br/>Static Frontend]
-    A -->|Sign in / Sign up| D[Amazon Cognito Hosted UI]
-    A -->|JWT-authenticated requests| E[API Gateway HTTP API]
-    E -->|Cognito JWT Authorizer| F[AWS Lambda<br/>Python 3.12]
-    F --> G[(Amazon DynamoDB<br/>Expenses)]
-    B --> H[AWS WAF]
-```
+![Architecture Diagram](app/screenshots/Expense%20Tracker%20AWS%20Serverless%20Architecture.png)
 
 ### Request flow
 
@@ -253,7 +244,7 @@ AI tools were used to support parts of the code-writing and development process.
 
 ## Contributors
 
-- [Cesar Nignan](https://github.com/CesarNignan)
+- [Adedamola Olaoy](https://github.com/CesarNignan)
 - [Nonso Emmanuel](https://github.com/chinonsoemma)
 - [Ibrahim Oyesola](https://github.com/oyesolaibrahim)
 - [Olatunde Peter](https://github.com/olatunde-peter)
